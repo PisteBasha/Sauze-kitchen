@@ -1,0 +1,154 @@
+{
+	"application": {
+
+		"title": "Example application",
+
+		"theme": "bootswatch-darkly",
+
+		"use_collection2": false,
+
+		"collections": [
+			{
+				"name": "journeys",
+				"fields": [
+					{ "name": "date", "title": "Date", "type": "date", "default": "today", "format": "DD/MM/YYYY", "exportable": true },
+					{ "name": "name", "title": "Name", "required": true, "exportable": true },
+					{ "name": "journey", "title": "Journey", "type": "string", "exportable": true },
+					{ "name": "note", "title": "Note", "input": "textarea", "exportable": true },
+					{ "name": "active", "title": "Active", "type": "bool", "input": "checkbox", "display_helper": "booleanToYesNo", "exportable": true }
+				]
+			}
+		],
+
+		"queries": [
+			{
+				"name": "journeys",
+				"collection": "journeys",
+				"filter": "{}"
+			},
+			{
+				"name": "journeys_empty",
+				"collection": "journeys",
+				"filter": "{ \"_id\": null }",
+				"find_one": true
+			},
+			{
+				"name": "journey",
+				"collection": "journeys",
+				"filter": "{ \"_id\": \":journeyId\" }",
+				"find_one": true
+			}
+		],
+
+		"free_zone": {
+
+			"components": [
+				{
+					"name": "main_menu",
+					"type": "menu",
+					"items": [
+						{ "title": "Home page", "route": "home" },
+						{ "title": "Journeys", "route": "journeys" }
+					]
+				}
+			],
+
+			"pages": [
+				{
+					"name": "home",
+					"title": "",
+					"components": [
+						{
+							"name": "home_jumbotron",
+							"title": "Sauze Travel App",
+							"type": "jumbotron",
+							"text": "<b>This <a href=\"https://www.meteor.com\" target=\"_blank\">Meteor</a> application is made with <a href=\"http://www.meteorkitchen.com\" target=\"_blank\">meteor-kitchen</a> without manual coding.</b><br />It demonstrates how to use DataView and Form components to create simple database application with view, search, insert, edit and delete functions.<br />Source code (input file for generator) is <a href=\"https://github.com/perak/kitchen-examples/tree/master/example-dataview\" target=\"_blank\">here</a>.",
+							"button_title": "Continue &raquo;",
+							"button_route": "journeys"
+						}
+					]
+				},
+				{
+					"name": "journeys",
+					"components": [
+						{
+							"name": "view",
+							"type": "data_view",
+							"title": "Journeys",
+							"text_if_empty": "No journeys :(",
+
+							"query_name": "journeys",
+							"query_params": [],
+
+							"insert_route": "journeys.insert",
+							"edit_route": "journeys.edit",
+							"edit_route_params": [
+								{ "name": "journeyId", "value": "this._id" }
+							],
+							"details_route": "journeys.details",
+							"details_route_params": [
+								{ "name": "journeyId", "value": "this._id" }
+							]
+						}
+					],
+					"pages": [
+						{
+							"name": "insert",
+							"components": [
+								{
+									"name": "insert_form",
+									"type": "form",
+									"mode": "insert",
+									"title": "New journey",
+
+									"query_name": "journeys_empty",
+									"query_params": [],
+
+									"submit_route": "journeys",
+									"cancel_route": "journeys"
+								}
+							]
+						},
+						{
+							"name": "details",
+							"route_params": ["journeyId"],
+							"components": [
+								{
+									"name": "details_form",
+									"type": "form",
+									"mode": "read_only",
+									"title": "Details",
+									"layout": "horizontal",
+
+									"query_name": "journey",
+									"query_params": [],
+
+									"close_route": "journeys",
+									"back_route": "journeys"
+								}
+							]
+						},
+
+						{
+							"name": "edit",
+							"route_params": ["journeyId"],
+							"components": [
+								{
+									"name": "edit_form",
+									"type": "form",
+									"mode": "update",
+									"title": "Edit journey",
+									"submit_route": "journeys",
+									"cancel_route": "journeys",
+
+									"query_name": "journey",
+									"query_params": []
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	}
+}

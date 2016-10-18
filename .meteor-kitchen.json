@@ -1,0 +1,301 @@
+{
+	"output_files": [
+		{
+			"path": "client/views/router.js",
+			"checksum": "336b28ad39d71adb57de1b433e85306448c87d95"
+		},
+		{
+			"path": "server/controllers/router.js",
+			"checksum": "f9d076cc64b65aa4ce85d9ca7272d8cfefc46694"
+		},
+		{
+			"path": "both/collections/journeys.js",
+			"checksum": "e86e98b602bd0b8248605fbc833397fd9936d5d9"
+		},
+		{
+			"path": "server/collections/journeys.js",
+			"checksum": "00dffafe01143b7d52d8a4892c0d57f6e7163233"
+		},
+		{
+			"path": "server/publish/journeys.js",
+			"checksum": "39f459f821fa243d6d884ae6f7ae021616066135"
+		},
+		{
+			"path": "client/client.js",
+			"checksum": "71a7b852c31a9e0e5cc867a13cf319f196c99d7f"
+		},
+		{
+			"path": "server/server.js",
+			"checksum": "7b4c8818056ab66d500036660ed2b41a944290b2"
+		},
+		{
+			"path": "client/views/not_found/not_found.html",
+			"checksum": "df91b51c0a4787a26c4a7ea8ad72ca8310f72b41"
+		},
+		{
+			"path": "client/views/not_found/not_found.js",
+			"checksum": "bf34ff3cc2a0d6f8b0d89aeda53df4022c053ef2"
+		},
+		{
+			"path": "client/views/loading/loading.html",
+			"checksum": "99e97ba60ddf18b9ed3977aa1f73b1fe3494922a"
+		},
+		{
+			"path": "client/views/loading/loading.js",
+			"checksum": "bc00c4247b7fe203147498423fd8b3f002e889b3"
+		},
+		{
+			"path": "client/styles/styles/theme/bootswatch.import.less",
+			"checksum": "1c89e9a39362ab853525bcdc3c7ef30844399cfd"
+		},
+		{
+			"path": "client/styles/styles/theme/theme.import.less",
+			"checksum": "f04733519720132ea291b6b3ad138181bf83bab4"
+		},
+		{
+			"path": "client/styles/styles/theme/themefix.import.less",
+			"checksum": "218efa4a548fc82cb380fa98d49a5692f6837d45"
+		},
+		{
+			"path": "client/styles/styles/theme/variables.import.less",
+			"checksum": "722903837b0aabb022139a80cc1567c25e53776f"
+		},
+		{
+			"path": "client/styles/styles/styles.less",
+			"checksum": "671f2c3059deb13a70e27908d38f08b591452630"
+		},
+		{
+			"path": "client/views/layout/layout.html",
+			"checksum": "22d5b028f91ceae67ff77b445a7d94b05f2ef518"
+		},
+		{
+			"path": "client/views/layout/layout.js",
+			"checksum": "b100fc6d68ddc14c0e4d227a10c9f0c2cb06e8cb"
+		},
+		{
+			"path": "client/views/home/home.html",
+			"checksum": "91e82e561c4b082b4bc67ed002729e3600149a82"
+		},
+		{
+			"path": "client/views/home/home.js",
+			"checksum": "88c1cf6686d2334aadc3ba5711570bd2c9be306b"
+		},
+		{
+			"path": "client/views/home/home_controller.js",
+			"checksum": "af1cb186b44f3a9a91dff51b73d24184d9fde2b7"
+		},
+		{
+			"path": "client/views/journeys/journeys.html",
+			"checksum": "4384bc7a25c054e7a857393731e6d17c79b71db9"
+		},
+		{
+			"path": "client/views/journeys/journeys.js",
+			"checksum": "736796b87328afcd80bc972d8e0a33eeab471b18"
+		},
+		{
+			"path": "client/views/journeys/journeys_controller.js",
+			"checksum": "eb45f5e2e64b1e8876f19afe7ef5e0c2a229dc87"
+		},
+		{
+			"path": "client/views/journeys/insert/insert.html",
+			"checksum": "03a28d2d7657beeb7d77c46e4d55d47ace6d6d1d"
+		},
+		{
+			"path": "client/views/journeys/insert/insert.js",
+			"checksum": "aa224f3cb6b57cf0e2621f3f3e9fdb4199cf14f9"
+		},
+		{
+			"path": "client/views/journeys/insert/insert_controller.js",
+			"checksum": "a9b9f41f845d9417e17f94fd2636c63b5b9bb1af"
+		},
+		{
+			"path": "client/views/journeys/details/details.html",
+			"checksum": "1f03f9d53c6d88f7b8d5401ef01f02746ae7e3e6"
+		},
+		{
+			"path": "client/views/journeys/details/details.js",
+			"checksum": "3e6f556c291f031b3b30a252d4887036a3c989e9"
+		},
+		{
+			"path": "client/views/journeys/details/details_controller.js",
+			"checksum": "623b829d747eaf5b3bc89f2a5012e2651e6f2d91"
+		},
+		{
+			"path": "client/views/journeys/edit/edit.html",
+			"checksum": "1b6f55d29df2ed3a86b391d633bbdf17485d3d58"
+		},
+		{
+			"path": "client/views/journeys/edit/edit.js",
+			"checksum": "c33f0f324e45458c28e6dcbb7a60616d56af10f2"
+		},
+		{
+			"path": "client/views/journeys/edit/edit_controller.js",
+			"checksum": "e2358f5adabb4bf86442b5aceefd8d7a976afc67"
+		},
+		{
+			"path": "lib/string_utils.js",
+			"checksum": "6bf8f64bf32bd7aff71cbeeba23df9fb8282a12c"
+		},
+		{
+			"path": "lib/object_utils.js",
+			"checksum": "33c6d536bb2256c097cf72ed503e769528265e2f"
+		},
+		{
+			"path": "lib/http_utils.js",
+			"checksum": "740095219b687a460a789da9ab9ef4d64a111b9c"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3/custom.bootstrap.import.less",
+			"checksum": "8007cd69773c1c62284460f7c0fd8310e7f60094"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3/custom.bootstrap.json",
+			"checksum": "59c3803dde72dfd34e95a52dc4f5cae65018ec38"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3/custom.bootstrap.less",
+			"checksum": "a114a65d406f228e4137a3fb7b33047c40a5cd68"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3/custom.bootstrap.mixins.import.less",
+			"checksum": "b53332a4c7dffc57aefda1db82b4e09258dad07a"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput.css",
+			"checksum": "30ba45c948bcb125cf0cb550b4a9d2f13ffcc710"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput.js",
+			"checksum": "b6c83cb478c232284b8b6cae90d0ec2840d93332"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_cz.js",
+			"checksum": "146a2a2bd0e89b62b775eee929907970e875ddf6"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_de.js",
+			"checksum": "fcad7c9406cb7ab1959ee5a62825a62b905f34a2"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_el.js",
+			"checksum": "d00eebe17389c41dbdfdd5611573ba52169f16eb"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_es.js",
+			"checksum": "6eb5775359ee3e6199962d05fb6a2ddf79426766"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_fr.js",
+			"checksum": "aea834881f99fe187153560b32011c2af7f56092"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_hu.js",
+			"checksum": "500bfd774110b73e07e9f4e23a4cbf9c896fbcea"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_it.js",
+			"checksum": "09d41c11dadf15f197bd443f5ad01a68e3408bde"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_LANG.js",
+			"checksum": "e80901eda8d09ee66e3375ddd6d7f7a53dbfcda8"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_nl.js",
+			"checksum": "106dfa775832df6830675c8927603a813063986c"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_pl.js",
+			"checksum": "77ce969c9532dc4cda50d57bad7c8e8c9e792386"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_pt-BR.js",
+			"checksum": "8caeab2c4b40a90eba4412eb5a31c76405e5a04a"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_pt.js",
+			"checksum": "f1d3b0c83a6a10b6e1cd7b8f523a98a7a51720ac"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_ro.js",
+			"checksum": "7fcbd870c67fbd4646b6b53c4e07f84ebaf6ebd1"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_ru.js",
+			"checksum": "4939e4b72d235b9a68602aba3501bd72bde77611"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_sk.js",
+			"checksum": "1dc9d65243156006cf762ed85cdf36501c27f38a"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_sr.js",
+			"checksum": "50ac58590814ab9959e34d94a4b2bb8cf9be35b9"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_th.js",
+			"checksum": "05fec04f2b334bd579126eeb54321fbec516470f"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_tr.js",
+			"checksum": "25e2ea3f23c594180a3496f814ae907343de1add"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_uk.js",
+			"checksum": "f5f6b5052a111fa87a5da8608a5d137d4116e6c5"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_zh.js",
+			"checksum": "f477aede4974871fc0ba71d3ed4f90d8b9f1a74e"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-tagsinput/bootstrap-tagsinput.css",
+			"checksum": "49937990ee001ae632d23d1e9bb71dc4460ac7c1"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-tagsinput/bootstrap-tagsinput.js",
+			"checksum": "4d941e8119dcf9b140347d647b925800cb7ef319"
+		},
+		{
+			"path": "client/lib/form_utils.js",
+			"checksum": "ac523c7384145b2d294b67946bf07b63c69cfe4e"
+		}
+	],
+	"output_directories": [
+		"client/",
+		"client/lib/",
+		"client/styles/",
+		"client/styles/framework/",
+		"client/styles/styles/",
+		"client/styles/styles/theme/",
+		"client/views/",
+		"client/views/not_found/",
+		"client/views/loading/",
+		"client/views/layout/",
+		"lib/",
+		"settings/",
+		"packages/",
+		"both/",
+		"both/lib/",
+		"both/collections/",
+		"both/joins/",
+		"public/",
+		"public/images/",
+		"public/fonts/",
+		"private/",
+		"server/",
+		"server/lib/",
+		"server/collections/",
+		"server/publish/",
+		"server/controllers/",
+		"server/methods/",
+		"client/views/home/",
+		"client/views/journeys/",
+		"client/views/journeys/insert/",
+		"client/views/journeys/details/",
+		"client/views/journeys/edit/",
+		"client/styles/framework/bootstrap3/",
+		"client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/",
+		"client/styles/framework/bootstrap3-plugins/bootstrap-tagsinput/"
+	]
+}
